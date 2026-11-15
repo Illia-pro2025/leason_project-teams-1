@@ -1,3 +1,10 @@
+import Navigation from "./components/Navigation/Navigation";
+
+function App() {
+  return (
+    <>
+      <Navigation />
+    </>
 import { DashboardPage } from "./components/DashboardPage";
 import statistics from "./statistics.json"
 import advantages from "./advantages.json"
